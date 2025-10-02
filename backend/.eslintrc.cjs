@@ -1,5 +1,6 @@
 module.exports = {
   root: true,
+
   env: {
     node: true,
     es2022: true
@@ -12,5 +13,6 @@ module.exports = {
   rules: {
     'no-console': 'off',
     'no-unused-vars': ['warn', { argsIgnorePattern: '^_' }]
+
   }
 };

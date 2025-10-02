@@ -1,6 +1,10 @@
 # Sistema de Gestión Integral para Ciber-café
 
+
 Este repositorio contiene la planificación técnica inicial y los primeros componentes implementados del sistema integral que gestiona la operación de un ciber-café, incluyendo la infraestructura de red, el control de acceso a los equipos, los pagos, la seguridad y una aplicación web de reservas.
+=======
+
+
 
 ## Objetivo general
 
@@ -16,9 +20,13 @@ Diseñar e implementar una plataforma completa que permita administrar la red lo
 
 Para una descripción detallada de cada módulo, su relación con las asignaturas y el plan de trabajo, consulta `docs/plan_proyecto.md`.
 
+
 ## Backend (API REST)
 
 El backend está construido en **Node.js (JavaScript)** con Express y expone endpoints iniciales para la gestión de reservas y sesiones de uso.
+=======
+
+=======
 
 ### Requisitos
 
@@ -52,6 +60,10 @@ Este backend incluye validaciones con Zod, middleware de errores y utilidades pa
 
 Consulta `docs/api_overview.md` para ejemplos detallados de consumo de la API.
 
+
+=======
+
+
 ## Pantalla de bloqueo para estaciones
 
 Dentro de `tools/lockscreen.py` se incluye una aplicación de escritorio sencilla
@@ -67,3 +79,10 @@ Opcionalmente, el código y el mensaje que se muestra en pantalla pueden
 configurarse mediante las variables de entorno `CYBERCAFE_UNLOCK_CODE` y
 `CYBERCAFE_LOCK_MESSAGE`. Use `--show-cursor` para dejar visible el ratón si es
 necesario.
+
+=======
+=======
+=======
+
+
+

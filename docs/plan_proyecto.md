@@ -38,6 +38,7 @@
 
 - **Aplicación web:**
   - **Backend:** Node.js (Express) con arquitectura modular en JavaScript, API REST, autenticación JWT para panel administrativo y tokens temporales para usuarios.
+
   - **Frontend:** Interfaz en TypeScript/React (usando componentes generados con asistencia de Claude AI) con diseño responsivo.
   - **Base de datos:** MySQL 8 con réplicas y respaldo automatizado, tablas para usuarios, estaciones, reservas, sesiones, pagos y logs.
   - **Integraciones:** Pasarela de pago local (ej. PayU, Stripe) y servicios de correo (SMTP).
@@ -97,8 +98,10 @@
 4. Definir matriz de riesgos y plan de mitigación.
 
 
+
 ## 10. Implementación en curso
 
 - Se creó la base de datos inicial en MySQL con tablas para usuarios, estaciones, reservas, sesiones, pagos y logs de seguridad.
 - Se implementó un backend en Node.js (JavaScript) con endpoints REST para reservas y sesiones, incluyendo validaciones y manejo de errores.
 - Próximos incrementos: autenticación de usuarios (JWT), módulo de pagos e integración con el portal web de reservas.
+=======
