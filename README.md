@@ -1,6 +1,10 @@
 # Sistema de Gestión Integral para Ciber-café
 
+
 Este repositorio contiene la planificación técnica inicial y los primeros componentes implementados del sistema integral que gestiona la operación de un ciber-café, incluyendo la infraestructura de red, el control de acceso a los equipos, los pagos, la seguridad y una aplicación web de reservas.
+=======
+Este repositorio contiene la planificación técnica inicial para el desarrollo de un sistema integral que gestione la operación de un ciber-café, incluyendo la infraestructura de red, el control de acceso a los equipos, los pagos, la seguridad y una aplicación web de reservas.
+
 
 ## Objetivo general
 
@@ -15,6 +19,7 @@ Diseñar e implementar una plataforma completa que permita administrar la red lo
 - **Aplicación web y base de datos:** desarrollo de la plataforma web para reservas, control de sesiones y generación de reportes, respaldada por una base de datos MySQL.
 
 Para una descripción detallada de cada módulo, su relación con las asignaturas y el plan de trabajo, consulta `docs/plan_proyecto.md`.
+
 
 ## Backend (API REST)
 
@@ -51,3 +56,5 @@ El servicio quedará disponible en `http://localhost:3000` con los siguientes en
 Este backend incluye validaciones con Zod, middleware de errores y utilidades para cálculo automático de costos basado en tarifas por hora configurables.
 
 Consulta `docs/api_overview.md` para ejemplos detallados de consumo de la API.
+=======
+
