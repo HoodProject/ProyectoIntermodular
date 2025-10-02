@@ -4,11 +4,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-
     "dev": "node --watch src/server.js",
     "start": "node src/server.js",
     "lint": "eslint \"src/**/*.js\" --max-warnings=0"
-
   },
   "dependencies": {
     "express": "^4.19.2",
@@ -21,7 +19,6 @@
     "cors": "^2.8.5"
   },
   "devDependencies": {
-
     "eslint": "^8.57.0"
   }
 }
