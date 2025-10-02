@@ -38,7 +38,9 @@
 
 - **Aplicación web:**
   - **Backend:** Node.js (Express) con arquitectura modular en JavaScript, API REST, autenticación JWT para panel administrativo y tokens temporales para usuarios.
+
   - **Frontend:** Interfaz en React con JavaScript (usando componentes generados con asistencia de Claude AI) y diseño responsivo.
+
   - **Base de datos:** MySQL 8 con réplicas y respaldo automatizado, tablas para usuarios, estaciones, reservas, sesiones, pagos y logs.
   - **Integraciones:** Pasarela de pago local (ej. PayU, Stripe) y servicios de correo (SMTP).
 
@@ -95,7 +97,6 @@
 2. Elaborar diagramas detallados (ERD, UML, topología de red).
 3. Configurar entorno de desarrollo y automatizar despliegues (CI/CD básico con GitHub Actions).
 4. Definir matriz de riesgos y plan de mitigación.
-
 
 ## 10. Implementación en curso
 
