@@ -1,5 +1,6 @@
 # Sistema de Gestión Integral para Ciber-café
 
+
 Este repositorio contiene la planificación técnica inicial y los primeros componentes implementados del sistema integral que gestiona la operación de un ciber-café, incluyendo la infraestructura de red, el control de acceso a los equipos, los pagos, la seguridad y una aplicación web de reservas.
 
 ## Objetivo general
