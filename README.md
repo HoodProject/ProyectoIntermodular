@@ -21,12 +21,12 @@ Diseñar e implementar una plataforma completa que permita administrar la red lo
 Para una descripción detallada de cada módulo, su relación con las asignaturas y el plan de trabajo, consulta `docs/plan_proyecto.md`.
 
 
-=======
-
-
 ## Backend (API REST)
 
-Se añadió un primer módulo backend basado en **Node.js + TypeScript** que expone endpoints iniciales para la gestión de reservas y sesiones de uso.
+El backend está construido en **Node.js (JavaScript)** con Express y expone endpoints iniciales para la gestión de reservas y sesiones de uso.
+=======
+
+=======
 
 ### Requisitos
 
@@ -61,6 +61,9 @@ Este backend incluye validaciones con Zod, middleware de errores y utilidades pa
 Consulta `docs/api_overview.md` para ejemplos detallados de consumo de la API.
 
 
+=======
+
+
 ## Pantalla de bloqueo para estaciones
 
 Dentro de `tools/lockscreen.py` se incluye una aplicación de escritorio sencilla
@@ -76,7 +79,10 @@ Opcionalmente, el código y el mensaje que se muestra en pantalla pueden
 configurarse mediante las variables de entorno `CYBERCAFE_UNLOCK_CODE` y
 `CYBERCAFE_LOCK_MESSAGE`. Use `--show-cursor` para dejar visible el ratón si es
 necesario.
+
 =======
 =======
+=======
+
 
 
