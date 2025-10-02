@@ -3,8 +3,6 @@
 
 Este repositorio contiene la planificación técnica inicial y los primeros componentes implementados del sistema integral que gestiona la operación de un ciber-café, incluyendo la infraestructura de red, el control de acceso a los equipos, los pagos, la seguridad y una aplicación web de reservas.
 
-
-
 ## Objetivo general
 
 Diseñar e implementar una plataforma completa que permita administrar la red local del negocio, controlar el acceso de los clientes a las estaciones de trabajo con límites de tiempo y cobro automático, gestionar reservas en línea y garantizar la seguridad informática del entorno.
@@ -19,11 +17,9 @@ Diseñar e implementar una plataforma completa que permita administrar la red lo
 
 Para una descripción detallada de cada módulo, su relación con las asignaturas y el plan de trabajo, consulta `docs/plan_proyecto.md`.
 
-
 ## Backend (API REST)
 
 El backend está construido en **Node.js (JavaScript)** con Express y expone endpoints iniciales para la gestión de reservas y sesiones de uso.
-
 
 ### Requisitos
 
