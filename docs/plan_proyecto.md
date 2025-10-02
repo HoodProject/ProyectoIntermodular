@@ -96,3 +96,12 @@
 3. Configurar entorno de desarrollo y automatizar despliegues (CI/CD básico con GitHub Actions).
 4. Definir matriz de riesgos y plan de mitigación.
 
+
+
+## 10. Implementación en curso
+
+- Se creó la base de datos inicial en MySQL con tablas para usuarios, estaciones, reservas, sesiones, pagos y logs de seguridad.
+- Se implementó un backend en Node.js/TypeScript con endpoints REST para reservas y sesiones, incluyendo validaciones y manejo de errores.
+- Próximos incrementos: autenticación de usuarios (JWT), módulo de pagos e integración con el portal web de reservas.
+=======
+
